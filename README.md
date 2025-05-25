@@ -1,105 +1,78 @@
-Flappy Doggo
-Flappy Doggo is a Flutter-based mobile game inspired by the classic Flappy Bird. Players navigate a cute doggo through a series of buildings, avoiding collisions while aiming for a high score. The game features custom assets, sound effects, a leaderboard, and a special "Pookie" mode with unique visuals and audio.
-Features
+# Flappy Doggo 🐶
 
-Dynamic Gameplay: Control the doggo by tapping to avoid randomly generated buildings with varying sizes.
-Customizable Assets: Different background and bird images based on the player's name (e.g., "Pookie" mode).
-Sound Effects: Includes background music, jump, score, and crash sounds for an immersive experience.
-Leaderboard: Persists high scores using shared_preferences and displays the top 10 scores.
-Responsive Design: Scales dynamically to different screen sizes for a consistent experience.
-Immersive Mode: Runs in fullscreen with no debug banner for a polished feel.
-
-Prerequisites
-To run Flappy Doggo, ensure you have the following installed:
-
-Flutter SDK: Version 3.0.0 or higher
-Dart: Included with Flutter
-Android Studio / Xcode: For emulator or physical device testing
-Git: To clone the repository
-
-Installation
-
-Clone the Repository:
-git clone https://github.com/IshtiAK47/FlappyDoggoGame.git
-cd flappy-doggo
+A fun Flappy Bird-inspired game featuring a cute dog character! Jump over buildings and compete for high scores.
 
 
-Install Dependencies:Run the following command to fetch the required packages:
-flutter pub get
+## Features ✨
 
+- 🐕 Play as an adorable dog character
+- 🏙️ Dodge procedurally generated buildings
+- 🎵 Custom background music and sound effects
+- 🌞🌜 Day/Night cycle that changes gameplay visuals
+- 📊 Leaderboard to track high scores
+- 🎨 Special theme for player named "Pookie"
+- ☁️ Animated clouds for immersive gameplay
 
-Add Assets:Ensure the following assets are added to the assets/ directory and listed in pubspec.yaml:
+## How to Play 🎮
 
-Images:
-assets/images/bird-normal.png
-assets/images/bird-pookiee.png
-assets/images/bg-normal.png
-assets/images/bg-pookiee.png
+1. Enter your name on the start screen
+2. Click/tap or press SPACE to make the dog jump
+3. Avoid hitting buildings and the ground
+4. Try to get the highest score possible!
 
+## Special Mode 🔥
 
-Sounds:
-assets/sounds/background.mp3
-assets/sounds/pookiee.mp3
-assets/sounds/jump.wav
-assets/sounds/score.wav
-assets/sounds/crash.wav
+If you enter the name **"Pookie"**, you'll unlock:
 
+- A special background theme
+- Unique character design
+- Custom background music
 
+## Installation 💻
 
-Example pubspec.yaml configuration:
-flutter:
-  assets:
-    - assets/images/bird-normal.png
-    - assets/images/bird-pookiee.png
-    - assets/images/bg-normal.png
-    - assets/images/bg-pookiee.png
-    - assets/sounds/background.mp3
-    - assets/sounds/pookiee.mp3
-    - assets/sounds/jump.wav
-    - assets/sounds/score.wav
-    - assets/sounds/crash.wav
+No installation needed! Just open `index.html` in your web browser.
 
+## Technologies Used 💾
 
-Run the App:Connect a device or start an emulator, then run:
-flutter run
+- HTML5
+- CSS3
+- JavaScript
+- Web Audio API
 
+## Customization 🎨
 
+Want to personalize your game? You can:
 
-Usage
+1. Replace image files in the `assets/images` folder
+2. Add your own sound effects to the `assets/sounds` folder
+3. Modify game parameters in `main.js`:
+   - Change gravity: `gravity = 0.15`
+   - Adjust jump force: `jumpForce = -7`
+   - Modify game speed: `gameSpeed = 2`
 
-Enter Your Name: On first launch, input your name. If you enter "Pookie" (case-insensitive), the game switches to a special theme with unique visuals and music.
-Start the Game: Tap "Start Game" to begin. The game will save your name for future sessions.
-Gameplay: Tap the screen to make the doggo jump and avoid buildings. Each building passed increases your score.
-Game Over: If the doggo hits a building or goes off-screen, the game ends. Your score is saved to the leaderboard.
-Leaderboard: View the top 10 high scores in the game-over screen.
-Restart or Change Name: Choose to play again or change your name from the game-over screen.
+## Known Issues 🐛
 
-Project Structure
+- Mobile touch controls might be too sensitive
+- High scores are stored locally in browser (clears with cache)
+- Performance may vary on older devices
 
-lib/main.dart: Main entry point and game logic.
-assets/: Contains images and sound files.
-pubspec.yaml: Lists dependencies and assets.
+## Future Improvements 🚀
 
-Dependencies
+- [ ] Add power-ups
+- [ ] Implement online leaderboard
+- [ ] Add more character skins
+- [ ] Create difficulty levels
 
-flutter: Core Flutter framework
-shared_preferences: For saving player name and leaderboard
-audioplayers: For playing background music and sound effects
+## Credits 🙏
 
-Contributing
-Contributions are welcome! To contribute:
+ 
+Inspired by Flappy Bird.
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit (git commit -m 'Add your feature').
-Push to the branch (git push origin feature/your-feature).
-Open a Pull Request.
+## License 📜
 
-Please ensure your code follows the Flutter style guide and includes tests where applicable.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-Acknowledgments
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Inspired by Flappy Bird
-Built with Flutter for cross-platform mobile development
+---
 
+Enjoy the game! 🐾  
+Feedback and contributions are welcome!
