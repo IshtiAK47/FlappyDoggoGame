@@ -3,6 +3,23 @@
 A fun Flappy Bird-inspired game featuring a cute dog character! Jump over buildings and compete for high scores.
 
 
+
+## 📲 Android Release Now Available!
+
+[![Download Android APK](https://img.shields.io/badge/Download-Android_APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/IshtiAK47/FlappyDoggoGame/releases/tag/Android)
+
+**Latest Version**: 0.9.0(Pre-release) 
+**Requirements**: Android 5.0+  
+**File Size**: 27MB  
+
+
++ New in Android version:
+- Optimized touch controls
+- Battery-friendly performance mode
+- Fullscreen immersive mode
+
+
+
 ## Features ✨
 
 - 🐕 Play as an adorable dog character
